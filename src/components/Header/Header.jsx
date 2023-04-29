@@ -28,6 +28,9 @@ const Header = () => {
                     <li className="header__contacts-item">
                         <a className="header__contacts-link">Почта</a>
                     </li>
+                    <li className="header__contacts-item">
+                        <a className="header__contacts-link">Github</a>
+                    </li>
                 </ul>
             </div>
         </header>
