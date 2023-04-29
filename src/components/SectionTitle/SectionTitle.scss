@@ -1,0 +1,12 @@
+.section__title {
+  font-size: 40px;
+  margin: 0;
+  &-circle {
+    margin-right: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #6EE145;
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionTitle from "../SectionTitle/SectionTitle";
 import './Technologies.scss';
 
 const Technologies = () => {
@@ -21,11 +22,14 @@ const Technologies = () => {
     ]
 
     return (
-        <ul className="techs__list">
-            {techs.map((tech) =>
-                <li className="element">{tech}</li>
-            )}
-        </ul>
+        <div className="techs">
+            <SectionTitle title="стек" />
+            <ul className="techs__list">
+                {techs.map((tech) =>
+                    <li className="element">{tech}</li>
+                )}
+            </ul>
+        </div>
     );
 };
 
