@@ -1,7 +1,9 @@
 
 .techs {
-  margin-top: 100px;
+  position: relative;
+  box-sizing: border-box;
   width: 90%;
+  margin-top: 100px;
 }
 .techs__list {
   margin-top: 40px;
@@ -9,6 +11,6 @@
   flex-wrap: wrap;
   max-width: 800px;
   gap: 20px;
-  padding: 0;
+  padding: 0 0 100px 0;
   list-style-type: none;
 }

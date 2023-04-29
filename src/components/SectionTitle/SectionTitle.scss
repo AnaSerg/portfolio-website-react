@@ -1,4 +1,8 @@
 .section__title {
+  padding-top: 30px;
+  background-color: #000;
+  position: sticky;
+  top: 80px;
   font-size: 40px;
   margin: 0;
   &-circle {

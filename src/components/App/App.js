@@ -11,6 +11,7 @@ function App() {
         <Cover />
         <Marquee />
         <Technologies />
+        <Technologies />
     </div>
   );
 }
