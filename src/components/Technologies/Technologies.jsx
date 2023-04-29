@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from "../SectionTitle/SectionTitle";
+import TechElement from "../TechElement/TechElement";
 import './Technologies.scss';
 
 const Technologies = () => {
@@ -26,7 +27,7 @@ const Technologies = () => {
             <SectionTitle title="стек" />
             <ul className="techs__list">
                 {techs.map((tech) =>
-                    <li className="element">{tech}</li>
+                    <TechElement title={tech} />
                 )}
             </ul>
         </div>

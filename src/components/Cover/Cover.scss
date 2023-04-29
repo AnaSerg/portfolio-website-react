@@ -1,7 +1,7 @@
 @import '../../scss/mixins.scss';
 
 .cover {
-  padding-top: 180px;
+  padding: 180px 0 50px;
   @include flex-center-column;
   &__image {
     border-radius: 50%;

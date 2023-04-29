@@ -1,9 +1,14 @@
 
 .techs {
+  margin-top: 100px;
   width: 90%;
 }
 .techs__list {
+  margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  gap: 20px;
   padding: 0;
   list-style-type: none;
 }
