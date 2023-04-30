@@ -1,9 +1,9 @@
 import React from 'react';
 import './TechElement.scss';
 
-const TechElement = ({title}) => {
+const TechElement = ({title, classes}) => {
     return (
-        <li className="tech-element">
+        <li className={classes}>
             {title}
         </li>
     );

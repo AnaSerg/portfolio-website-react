@@ -27,7 +27,7 @@ const Technologies = () => {
             <SectionTitle title="стек" />
             <ul className="techs__list">
                 {techs.map((tech) =>
-                    <TechElement title={tech} />
+                    <TechElement title={tech} classes="tech-element"/>
                 )}
             </ul>
         </div>

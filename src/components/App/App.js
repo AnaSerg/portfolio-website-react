@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Cover from "../Cover/Cover";
 import Technologies from "../Technologies/Technologies";
 import Marquee from "../Marquee/Marquee";
+import Projects from "../Projects/Projects";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <Cover />
         <Marquee />
         <Technologies />
-        <Technologies />
+        <Projects />
+
     </div>
   );
 }
