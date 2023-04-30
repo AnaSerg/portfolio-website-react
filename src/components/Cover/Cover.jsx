@@ -6,7 +6,7 @@ const Cover = () => {
     return (
         <div className="cover">
             <img src={Photo} className="cover__image"/>
-            <p className="cover__text">Привет! Меня зовут Настя 👋</p>
+            <p className="cover__text">Привет! Меня зовут Сергеева Настя 👋</p>
             <h1 className="cover__title">Я - фронтенд-разработчик <br/> Создаю удобные интерфейсы на React</h1>
             <button className="cover__button">Скачать резюме</button>
         </div>

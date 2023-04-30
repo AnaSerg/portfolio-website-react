@@ -1,6 +1,7 @@
 import Learn from '../images/how-to-learn-image.png';
 import RussianTravel from '../images/russian-travel-image.png';
 import Movies from '../images/movies-explorer-image.png';
+import Mesto from '../images/mesto-image.png';
 
 export const projects = [
     {
@@ -29,7 +30,7 @@ export const projects = [
         title: "Путешествие по России",
         image: RussianTravel,
         techs: ['HTML', 'CSS', 'БЭМ', 'flex layout', 'grid', 'доступность', 'адаптив'],
-        smallDescription: "Лендинг о путешествии по России с перечислением интересных мест, достойных посещения",
+        smallDescription: "Лендинг о путешествии по России с перечислением интересных мест, достойных посещения.",
         githubLink: "https://github.com/AnaSerg/russian-travel",
         link: "https://anaserg.github.io/russian-travel/"
     },
@@ -44,26 +45,26 @@ export const projects = [
         githubLink: "",
         link: ""
     },
+    */
     {
         id: 5,
         title: "Mesto",
-        image: ,
-        techs: [],
-        smallDescription: "Описание",
-        bigDescription: "Длинное описание",
-        githubLink: "",
+        image: Mesto,
+        techs: ['CSS', 'React', 'Webpack', 'Node.js', 'Express.js', 'MongoDB', 'адаптив'],
+        smallDescription: "Социальная сеть, где можно делиться фотографиями, ставить лайки на фото других пользователей.",
+        githubLink: "https://github.com/AnaSerg/mesto-frontend",
         link: "https://creative-gumdrop-b6767e.netlify.app/"
     },
     {
         id: 6,
         title: "Movies Explorer",
-        image: ,
-        techs: [],
-        smallDescription: "Описание",
-        bigDescription: "Длинное описание",
+        image: Movies,
+        techs: ['CSS', 'React', 'Webpack', 'Node.js', 'Express.js', 'MongoDB', 'адаптив'],
+        smallDescription: "Сервис по поиску фильмов с возможностью сохранения в личном кабинете.",
         githubLink: "",
         link: "https://movies-front.nomoredomains.club/"
     },
+    /*
     {
         id: 7,
         title: "Дай 5!",
