@@ -16,22 +16,11 @@ const Header = () => {
                         <li className="header__nav-list-item">
                             <a className="header__nav-list-item-link">Обо мне</a>
                         </li>
+                        <li className="header__nav-list-item">
+                            <a className="header__nav-list-item-link">Контакты</a>
+                        </li>
                     </ul>
                 </nav>
-                <ul className="header__contacts">
-                    <li className="header__contacts-item">
-                        <a className="header__contacts-link">Telegram</a>
-                    </li>
-                    <li className="header__contacts-item">
-                        <a className="header__contacts-link">WhatsApp</a>
-                    </li>
-                    <li className="header__contacts-item">
-                        <a className="header__contacts-link">Почта</a>
-                    </li>
-                    <li className="header__contacts-item">
-                        <a className="header__contacts-link">Github</a>
-                    </li>
-                </ul>
             </div>
         </header>
     );
