@@ -7,7 +7,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const Projects = () => {
 
     return (
-        <div className="projects">
+        <div id="projects" className="projects">
             <SectionTitle title="проекты" />
             <p className="projects__subtitle">Подробное описание проекта можно посмотреть на Github :)</p>
             <ul className="projects__list">

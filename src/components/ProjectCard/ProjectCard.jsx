@@ -14,8 +14,8 @@ const ProjectCard = ({project}) => {
                         <TechElement title={tech} classes="tech-element tech-element_location_card"/>
                     )}
                 </ul>
-                <button className="project-card__button project-card__button_website">Сайт</button>
-                <button className="project-card__button project-card__button_github">Github</button>
+                <a target="_blank" href={project.link} className="project-card__button project-card__button_website">Сайт</a>
+                <a target="_blank" href={project.githubLink} className="project-card__button project-card__button_github">Github</a>
             </div>
         </div>
     );

@@ -6,7 +6,7 @@ import AboutMeParagraph from "../AboutMeParagraph/AboutMeParagraph";
 
 const AboutMe = () => {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <SectionTitle title="обо мне" />
             <ul className="about__list">
                 {aboutInfo.map((info) =>

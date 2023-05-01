@@ -23,7 +23,7 @@ const Technologies = () => {
     ]
 
     return (
-        <div className="techs">
+        <div id="techs" className="techs">
             <SectionTitle title="стек" />
             <ul className="techs__list">
                 {techs.map((tech) =>
