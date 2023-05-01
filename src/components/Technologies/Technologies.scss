@@ -5,13 +5,13 @@
   box-sizing: border-box;
   width: 90%;
   margin-top: 100px;
-}
-.techs__list {
-  margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  gap: 20px;
-  @include listStyle;
-  padding: 0 0 100px 0;
+  &__list {
+    margin: 70px 0 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 20px;
+    @include listStyle;
+    padding: 0;
+  }
 }

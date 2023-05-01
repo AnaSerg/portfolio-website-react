@@ -1,4 +1,5 @@
 @import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
 
 .cover {
   width: 90%;
@@ -26,13 +27,13 @@
   &__button {
     margin-top: 50px;
     padding: 20px;
-    border: 1px solid #E85921;
+    border: 1px solid $orange;
     background-color: #000;
     color: #fff;
     border-radius: 5px;
     &:hover {
-      background-color: #E85921;
-      border-color: #E85921;
+      background-color: $orange;
+      border-color: $orange;
       color: #000;
     }
     transition: all .3s;

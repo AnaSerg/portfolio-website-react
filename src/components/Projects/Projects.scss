@@ -4,12 +4,13 @@
   width: 90%;
   &__subtitle {
     font-size: 14px;
-    margin: 20px 0 0;
+    margin: 70px 0 0;
   }
   &__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px 30px;
+    margin: 20px 0 100px 0;
     @include listStyle;
   }
 }

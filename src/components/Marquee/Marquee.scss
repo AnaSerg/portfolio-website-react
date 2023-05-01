@@ -1,3 +1,6 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
@@ -32,11 +35,11 @@
       width: 10px;
       height: 10px;
       border-radius: 50%;
-      background-color: #E85921;
+      background-color: $orange;
     }
     &_highlighted {
       font-style: italic;
-      color: #6EE145;
+      color: $lightGreen;
     }
   }
 }

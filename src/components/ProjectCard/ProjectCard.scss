@@ -1,4 +1,5 @@
 @import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
 
 .project-card {
   box-sizing: border-box;
@@ -47,11 +48,11 @@
     cursor: pointer;
     &_website {
       background-color: #000;
-      border-color: #E85921;
+      border-color: $orange;
       margin-right: 10px;
       &:hover {
-        background-color: #E85921;
-        border-color: #E85921;
+        background-color: $orange;
+        border-color: $orange;
         color: #000;
       }
     }

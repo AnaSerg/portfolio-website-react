@@ -1,3 +1,6 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
 .section__title {
   background-color: #000;
   position: sticky;
@@ -10,6 +13,6 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #6EE145;
+    background-color: $lightGreen;
   }
 }
