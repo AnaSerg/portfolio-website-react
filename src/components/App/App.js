@@ -5,6 +5,7 @@ import Technologies from "../Technologies/Technologies";
 import Marquee from "../Marquee/Marquee";
 import Projects from "../Projects/Projects";
 import AboutMe from "../AboutMe/AboutMe";
+import Contacts from "../Contacts/Contacts";
 
 function App() {
   return (
@@ -15,8 +16,17 @@ function App() {
         <Technologies />
         <Projects />
         <AboutMe />
+        <Contacts />
     </div>
   );
 }
 
 export default App;
+
+/*
+<Cover />
+        <Marquee />
+        <Technologies />
+        <Projects />
+        <AboutMe />
+ */
