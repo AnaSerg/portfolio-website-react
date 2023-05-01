@@ -1,4 +1,4 @@
-
+@import '../../scss/mixins.scss';
 
 .project-card {
   box-sizing: border-box;
@@ -31,8 +31,7 @@
     width: 60%;
   }
   &__techs-list {
-    list-style-type: none;
-    padding: 0;
+    @include listStyle;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

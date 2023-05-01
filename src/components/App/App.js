@@ -4,6 +4,7 @@ import Cover from "../Cover/Cover";
 import Technologies from "../Technologies/Technologies";
 import Marquee from "../Marquee/Marquee";
 import Projects from "../Projects/Projects";
+import AboutMe from "../AboutMe/AboutMe";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Marquee />
         <Technologies />
         <Projects />
-
+        <AboutMe />
     </div>
   );
 }

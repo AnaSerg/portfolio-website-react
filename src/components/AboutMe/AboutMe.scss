@@ -1,15 +1,13 @@
 @import '../../scss/mixins.scss';
 
-.projects {
+.about {
   width: 90%;
-  &__subtitle {
-    font-size: 14px;
-    margin: 20px 0 0;
-  }
   &__list {
+    margin: 0 auto;
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px 30px;
     @include listStyle;
+    gap: 0 60px;
   }
 }

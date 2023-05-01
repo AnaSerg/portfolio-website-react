@@ -1,0 +1,22 @@
+
+
+.about-paragraph {
+  margin: 0 0 50px 0;
+  &:first-of-type {
+    margin: 0;
+  }
+  height: fit-content;
+  &__heading {
+    display: inline-block;
+    margin: 0 0 30px 0;
+    padding-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 1px solid #E85921;
+  }
+  &__text {
+    margin: 0;
+    font-size: 16px;
+    color: #FBFBFD;
+    line-height: 1.9;
+  }
+}
