@@ -16,3 +16,13 @@
     background-color: $lightGreen;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .section__title {
+    top: 255px;
+    font-size: 36px;
+    &_menu_closed {
+      top: 50px;
+    }
+  }
+}

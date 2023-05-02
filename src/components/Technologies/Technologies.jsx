@@ -3,7 +3,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import TechElement from "../TechElement/TechElement";
 import './Technologies.scss';
 
-const Technologies = () => {
+const Technologies = ({burgerMenuOpened}) => {
     const techs = [
         'React.js',
         'CSS3',
@@ -24,7 +24,7 @@ const Technologies = () => {
 
     return (
         <div id="techs" className="techs">
-            <SectionTitle title="стек" />
+            <SectionTitle title="стек" burgerMenuOpened={burgerMenuOpened} />
             <ul className="techs__list">
                 {techs.map((tech) =>
                     <TechElement title={tech} classes="tech-element"/>

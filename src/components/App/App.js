@@ -23,6 +23,7 @@ function App() {
         <Header openBurgerMenu={openBurgerMenu} burgerMenuOpened={burgerMenuOpened}/>
         <Cover burgerMenuOpened={burgerMenuOpened}/>
         <Marquee />
+        <Technologies burgerMenuOpened={burgerMenuOpened}/>
     </div>
   );
 }
@@ -30,7 +31,8 @@ function App() {
 export default App;
 
 /*
-        <Technologies />
+
         <Projects />
         <AboutMe />
+        <Contacts />
  */

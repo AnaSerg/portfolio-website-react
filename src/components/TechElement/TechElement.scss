@@ -10,3 +10,14 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .tech-element {
+    font-size: 14px;
+    &_location_card {
+      width: fit-content;
+      height: fit-content;
+      font-size: 12px;
+    }
+  }
+}
