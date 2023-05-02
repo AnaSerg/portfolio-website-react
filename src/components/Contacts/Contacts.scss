@@ -29,3 +29,30 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .contacts {
+    &__list {
+      &-item {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contacts {
+    &__list {
+      margin: 50px 0 80px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts {
+    &__list {
+      @include flex-center-column;
+      gap: 30px;
+    }
+  }
+}
