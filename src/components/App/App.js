@@ -6,11 +6,23 @@ import Marquee from "../Marquee/Marquee";
 import Projects from "../Projects/Projects";
 import AboutMe from "../AboutMe/AboutMe";
 import Contacts from "../Contacts/Contacts";
+import React from "react";
 
 function App() {
+    const [burgerMenuOpened, setBurgerMenuOpened] = React.useState(false);
+    const openBurgerMenu = () => {
+        if(!burgerMenuOpened) {
+            setBurgerMenuOpened(true);
+        } else {
+            setBurgerMenuOpened(false);
+        }
+    }
+
   return (
     <div className="App">
-        <Header />
+        <Header openBurgerMenu={openBurgerMenu} burgerMenuOpened={burgerMenuOpened}/>
+        <Cover burgerMenuOpened={burgerMenuOpened}/>
+        <Marquee />
     </div>
   );
 }
@@ -18,8 +30,6 @@ function App() {
 export default App;
 
 /*
-<Cover />
-        <Marquee />
         <Technologies />
         <Projects />
         <AboutMe />

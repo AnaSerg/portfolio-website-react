@@ -1,8 +1,7 @@
 import React from 'react';
 import './Header.scss';
 
-const Header = () => {
-    const [burgerMenuOpened, setBurgerMenuOpened] = React.useState(false);
+const Header = ({openBurgerMenu, burgerMenuOpened}) => {
 
     const handleClickScroll = (block) => {
         const element = document.getElementById(block);
@@ -10,14 +9,6 @@ const Header = () => {
             element.scrollIntoView({ behavior: 'smooth', block: "start", inline: "nearest" });
         }
     };
-
-    const openBurgerMenu = () => {
-        if(!burgerMenuOpened) {
-            setBurgerMenuOpened(true);
-        } else {
-            setBurgerMenuOpened(false);
-        }
-    }
 
     return (
         <header className="header">
