@@ -3,29 +3,22 @@ import './Header.scss';
 
 const Header = ({openBurgerMenu, burgerMenuOpened}) => {
 
-    const handleClickScroll = (block) => {
-        const element = document.getElementById(block);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth', block: "start", inline: "nearest" });
-        }
-    };
-
     return (
         <header className="header">
             <div className={!burgerMenuOpened ? "header__content header__content_closed" : "header__content"}>
                 <nav className="header__nav">
                     <ul className="header__nav-list">
-                        <li className="header__nav-list-item" onClick={() => handleClickScroll('techs')}>
-                            Стек
+                        <li className="header__nav-list-item" onClick={() => openBurgerMenu()}>
+                            <a className="header__nav-link" href="#techs">Стек</a>
                         </li>
-                        <li className="header__nav-list-item" onClick={() => handleClickScroll('projects')}>
-                            Проекты
+                        <li className="header__nav-list-item" onClick={() => openBurgerMenu()}>
+                            <a className="header__nav-link" href="#projects">Проекты</a>
                         </li>
-                        <li className="header__nav-list-item" onClick={() => handleClickScroll('about')}>
-                           Обо мне
+                        <li className="header__nav-list-item" onClick={() => openBurgerMenu()}>
+                            <a className="header__nav-link" href="#about">Обо мне</a>
                         </li>
-                        <li className="header__nav-list-item" onClick={() => handleClickScroll('contacts')}>
-                            Контакты
+                        <li className="header__nav-list-item" onClick={() => openBurgerMenu()}>
+                            <a className="header__nav-link" href="#contacts">Контакты</a>
                         </li>
                     </ul>
                 </nav>

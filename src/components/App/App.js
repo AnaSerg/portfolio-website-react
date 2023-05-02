@@ -26,6 +26,7 @@ function App() {
         <Technologies burgerMenuOpened={burgerMenuOpened}/>
         <Projects burgerMenuOpened={burgerMenuOpened} />
         <AboutMe burgerMenuOpened={burgerMenuOpened} />
+        <Contacts />
     </div>
   );
 }
