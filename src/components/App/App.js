@@ -11,12 +11,6 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Cover />
-        <Marquee />
-        <Technologies />
-        <Projects />
-        <AboutMe />
-        <Contacts />
     </div>
   );
 }

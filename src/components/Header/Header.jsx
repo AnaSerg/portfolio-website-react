@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.scss';
 
 const Header = () => {
+    const [burgerMenuOpened, setBurgerMenuOpened] = React.useState(false);
 
     const handleClickScroll = (block) => {
         const element = document.getElementById(block);
@@ -10,9 +11,17 @@ const Header = () => {
         }
     };
 
+    const openBurgerMenu = () => {
+        if(!burgerMenuOpened) {
+            setBurgerMenuOpened(true);
+        } else {
+            setBurgerMenuOpened(false);
+        }
+    }
+
     return (
         <header className="header">
-            <div className="header__content">
+            <div className={!burgerMenuOpened ? "header__content header__content_closed" : "header__content"}>
                 <nav className="header__nav">
                     <ul className="header__nav-list">
                         <li className="header__nav-list-item" onClick={() => handleClickScroll('techs')}>
@@ -30,6 +39,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
+            <button onClick={() => openBurgerMenu()} className={burgerMenuOpened ? "burger-menu__button burger-menu__button_closed" : "burger-menu__button"}></button>
         </header>
     );
 };
