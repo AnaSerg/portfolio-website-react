@@ -25,6 +25,7 @@ function App() {
         <Marquee />
         <Technologies burgerMenuOpened={burgerMenuOpened}/>
         <Projects burgerMenuOpened={burgerMenuOpened} />
+        <AboutMe burgerMenuOpened={burgerMenuOpened} />
     </div>
   );
 }
@@ -32,6 +33,5 @@ function App() {
 export default App;
 
 /*
-        <AboutMe />
         <Contacts />
  */

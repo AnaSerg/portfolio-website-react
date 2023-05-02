@@ -24,12 +24,12 @@
   &__image {
     display: inline-block;
     align-self: center;
-    width: 40%;
+    width: 240px;
     height: 100%;
     border-radius: 5px;
   }
   &__info {
-    width: 60%;
+    width: 75%;
   }
   &__techs-list {
     @include listStyle;
@@ -73,16 +73,12 @@
 
 @media screen and (max-width: 1440px) {
   .project-card {
-    &__image {
-      width: 250px;
-    }
     &__paragraph {
       font-size: 14px;
       height: 70px;
     }
     &__info {
       position: relative;
-      width: 75%;
     }
     &__button {
       position: absolute;

@@ -20,3 +20,12 @@
     line-height: 1.9;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .about-paragraph {
+    margin: 0;
+    &__text {
+      text-align: justify;
+    }
+  }
+}
