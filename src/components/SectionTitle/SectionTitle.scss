@@ -34,5 +34,10 @@
 @media screen and (max-width: 450px) {
   .section__title {
     top: 40px;
+    font-size: 28px;
+    &-circle {
+      width: 7px;
+      height: 7px;
+    }
   }
 }
