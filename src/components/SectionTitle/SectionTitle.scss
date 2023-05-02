@@ -27,18 +27,12 @@
 @media screen and (max-width: 500px) {
   .section__title {
     font-size: 32px;
-    &_menu_closed {
-      padding-top: 10px;
-    }
+    padding: 10px 0;
   }
 }
 
 @media screen and (max-width: 450px) {
   .section__title {
-    top: 250px;
-    &_menu_closed {
-      top: 0;
-      padding-top: 10px;
-    }
+    top: 40px;
   }
 }

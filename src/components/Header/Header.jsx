@@ -4,7 +4,7 @@ import './Header.scss';
 const Header = ({openBurgerMenu, burgerMenuOpened}) => {
 
     return (
-        <header className="header">
+        <header className={!burgerMenuOpened ? "header header_closed" : "header"}>
             <div className={!burgerMenuOpened ? "header__content header__content_closed" : "header__content"}>
                 <nav className="header__nav">
                     <ul className="header__nav-list">
