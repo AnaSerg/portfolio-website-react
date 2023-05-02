@@ -4,11 +4,11 @@ import './Projects.scss';
 import ProjectCard from "../ProjectCard/ProjectCard";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
-const Projects = () => {
+const Projects = ({burgerMenuOpened}) => {
 
     return (
         <div id="projects" className="projects">
-            <SectionTitle title="проекты" />
+            <SectionTitle title="проекты" burgerMenuOpened={burgerMenuOpened}/>
             <p className="projects__subtitle">Подробное описание проекта можно посмотреть на Github :)</p>
             <ul className="projects__list">
                 {projects.map((project) =>

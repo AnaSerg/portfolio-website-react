@@ -39,6 +39,8 @@
     margin-bottom: 40px;
   }
   &__button {
+    text-align: center;
+    box-sizing: border-box;
     display: inline-block;
     border: 1px solid #000;
     border-radius: 5px;
@@ -65,6 +67,80 @@
         border-color: #fff;
         color: #000;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .project-card {
+    &__image {
+      width: 250px;
+    }
+    &__paragraph {
+      font-size: 14px;
+      height: 70px;
+    }
+    &__info {
+      position: relative;
+      width: 75%;
+    }
+    &__button {
+      position: absolute;
+      bottom: 0;
+      &_github {
+        left: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-card {
+    &__techs-list {
+      margin: 20px 0 0;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project-card {
+    flex-direction: column;
+    height: fit-content;
+    gap: 30px;
+    &__image {
+      height: 310px;
+    }
+    &__button {
+      width: 250px;
+      position: static;
+      padding: 15px 40px;
+      align-self: center;
+      &_website {
+        margin: 0 0 15px 0;
+      }
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    &__techs-list {
+      margin: 10px 0 30px;
+    }
+    &__title {
+      font-size: 20px;
+    }
+    &__paragraph {
+      font-size: 16px;
+      height: fit-content;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-card {
+    &__techs-list {
+      margin: 20px 0 40px;
     }
   }
 }

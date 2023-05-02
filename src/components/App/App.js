@@ -24,6 +24,7 @@ function App() {
         <Cover burgerMenuOpened={burgerMenuOpened}/>
         <Marquee />
         <Technologies burgerMenuOpened={burgerMenuOpened}/>
+        <Projects burgerMenuOpened={burgerMenuOpened} />
     </div>
   );
 }
@@ -31,8 +32,6 @@ function App() {
 export default App;
 
 /*
-
-        <Projects />
         <AboutMe />
         <Contacts />
  */
